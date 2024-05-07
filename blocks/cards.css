@@ -10,11 +10,32 @@
 .card {
   display: flex;
   flex-direction: column;
-  background-color: #665d69;
+  background-color: #4f4952;
   width: 282px;
   height: 361px;
   gap: 0px;
   border-radius: 11px;
   overflow: hidden;
   position: relative;
+}
+.card__image {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  max-width: 250px;
+  max-height: 250px;
+}
+.card__info {
+}
+.card__text {
+  margin-left: 10px;
+  width: 250px;
+  text-align: left;
+}
+.card:hover {
+  background-color: #665d69;
+}
+
+.card__image_translate:hover {
+  transform: translate(10px, 0);
 }
