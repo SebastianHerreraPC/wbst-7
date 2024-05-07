@@ -39,3 +39,14 @@
 .card__image_translate:hover {
   transform: translate(10px, 0);
 }
+
+.card__image_scale:hover {
+  transform: scale(0.8);
+}
+
+.card__image_rotate:hover {
+  transform: rotate(90deg);
+}
+.card__image_skew:hover {
+  transform: skew(15deg, 0deg);
+}
