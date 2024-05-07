@@ -1,6 +1,17 @@
 .cards {
   padding-top: 10px;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  flex-wrap: wrap;
+}
+.card {
+  background-color: #665d69;
+  width: 282px;
+  height: 361px;
+  gap: 0px;
+  border-radius: 11px;
+  opacity: 0px;
+  overflow: hidden;
+  position: relative;
 }
