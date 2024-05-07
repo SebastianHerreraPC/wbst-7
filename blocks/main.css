@@ -1,0 +1,13 @@
+.main {
+  padding-top: 40px;
+  margin: auto;
+}
+.main__title {
+  font-size: 60px;
+  display: flex;
+}
+
+.main__subtitle {
+  padding-top: 20px;
+  font-size: 38px;
+}

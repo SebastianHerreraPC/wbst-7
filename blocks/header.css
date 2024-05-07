@@ -1,0 +1,12 @@
+.header {
+  max-width: 1200px;
+  display: flex;
+  margin: auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #b5aeb8;
+}
+.header__logo {
+  max-width: 90px;
+  margin: auto;
+}
