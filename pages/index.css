@@ -7,7 +7,7 @@ body {
   background-color: #2d292e;
 }
 div {
-  /* border: 1px solid red; */
+  border: 1px solid red;
 }
 .page {
   color: white;

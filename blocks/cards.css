@@ -38,15 +38,20 @@
 
 .card__image_translate:hover {
   transform: translate(10px, 0);
+  transition: transform 0.4s ease-in-out;
 }
 
 .card__image_scale:hover {
   transform: scale(0.8);
+  transition: transform 0.4s ease-in;
 }
 
 .card__image_rotate:hover {
-  transform: rotate(90deg);
+  transform: rotate(360deg);
+  transition: transform 2s ease-out;
 }
+
 .card__image_skew:hover {
   transform: skew(15deg, 0deg);
+  transition: transform 0.4s ease-in-out;
 }
